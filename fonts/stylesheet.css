@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'FC Motorway';
+    src: url('FCMotorwayRegular.eot');
+    src: url('FCMotorwayRegular.eot?#iefix') format('embedded-opentype'),
+        url('FCMotorwayRegular.woff2') format('woff2'),
+        url('FCMotorwayRegular.woff') format('woff'),
+        url('FCMotorwayRegular.ttf') format('truetype'),
+        url('FCMotorwayRegular.svg#FCMotorwayRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FC Motorway';
+    src: url('FCMotorwayBold.eot');
+    src: url('FCMotorwayBold.eot?#iefix') format('embedded-opentype'),
+        url('FCMotorwayBold.woff2') format('woff2'),
+        url('FCMotorwayBold.woff') format('woff'),
+        url('FCMotorwayBold.ttf') format('truetype'),
+        url('FCMotorwayBold.svg#FCMotorwayBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FC Motorway Semi-condensed';
+    src: url('FCMotorwaySemi-condensedRegular.eot');
+    src: url('FCMotorwaySemi-condensedRegular.eot?#iefix') format('embedded-opentype'),
+        url('FCMotorwaySemi-condensedRegular.woff2') format('woff2'),
+        url('FCMotorwaySemi-condensedRegular.woff') format('woff'),
+        url('FCMotorwaySemi-condensedRegular.ttf') format('truetype'),
+        url('FCMotorwaySemi-condensedRegular.svg#FCMotorwaySemi-condensedRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FC Motorway Semicondensed';
+    src: url('FCMotorwaySemi-condensedBold.eot');
+    src: url('FCMotorwaySemi-condensedBold.eot?#iefix') format('embedded-opentype'),
+        url('FCMotorwaySemi-condensedBold.woff2') format('woff2'),
+        url('FCMotorwaySemi-condensedBold.woff') format('woff'),
+        url('FCMotorwaySemi-condensedBold.ttf') format('truetype'),
+        url('FCMotorwaySemi-condensedBold.svg#FCMotorwaySemi-condensedBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
