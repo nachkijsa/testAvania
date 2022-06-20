@@ -13,6 +13,10 @@ body {
     margin: auto;
 }
 
+.column {
+    flex: 50%;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -38,24 +42,38 @@ img {
     padding: 0 15px;
     width: 100%;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .gallery .gallery-filter2 {
     padding: 0 15px;
     width: 100%;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.gallery .gallery-filter3 {
+    padding: 0 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.gallery .gallery-filter4 {
+    padding: 0 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .gallery .gallery-filter .filter-item {
     color: #ffffff;
-    font-size: 17px;
+    font-size: 15px;
     border: 2px solid white;
     text-transform: uppercase;
     display: inline-block;
     border-radius: 20px;
-    margin-top: 8px;
+    margin-top: 5px;
     margin-right: 5px;
     cursor: pointer;
     padding: 8px 20px 8px 20px;
@@ -70,7 +88,35 @@ img {
     text-transform: uppercase;
     display: inline-block;
     border-radius: 20px;
-    margin-top: 8px;
+    margin-top: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 8px 20px 8px 20px;
+    line-height: 1.2;
+    transition: all 0.3s ease;
+}
+
+.gallery .gallery-filter3 .filter-item3 {
+    color: #ffffff;
+    font-size: 12px;
+    border: 2px solid white;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 8px 20px 8px 20px;
+    line-height: 1.2;
+    transition: all 0.3s ease;
+}
+
+.gallery .gallery-filter4 .filter-item4 {
+    color: #ffffff;
+    font-size: 12px;
+    border: 2px solid white;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 20px;
     margin-right: 5px;
     cursor: pointer;
     padding: 8px 20px 8px 20px;
@@ -85,6 +131,18 @@ img {
 }
 
 .gallery .gallery-filter2 .filter-item2.active {
+    color: white;
+    border-color: #16b5ef;
+    background: #16b5ef;
+}
+
+.gallery .gallery-filter3 .filter-item3.active {
+    color: white;
+    border-color: #16b5ef;
+    background: #16b5ef;
+}
+
+.gallery .gallery-filter4 .filter-item4.active {
     color: white;
     border-color: #16b5ef;
     background: #16b5ef;
